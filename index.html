@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <form action="index.html" method="post">
+            <h1>Register</h1>
+            
+        <fieldset>
+            <legend><span class="sign">1</span>Your Info</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username">
+            
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user email">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+        </fieldset>
+        <fieldset>
+            
+            <label for="bio">bio:</label>
+            <textarea id="bio" name="user-bio"></textarea>
+            
+            <label for="job">Select job:</label>
+            <select id="job" name="user-job">
+                <option value="frontend-developer">Frontend developer</option>
+                <option value="java-developer">java developer</option>
+                <option value="php-developer">php developer</option>
+                <option value="javascript-developer">javascript developer</option>
+                <option value="fullstack-developer">fullstack developer</option>
+            </select>
+            
+            
+        
+       </fieldset>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+
+      
+      
+    </body>
+</html>
